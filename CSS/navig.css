@@ -1,0 +1,1213 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+    
+}
+
+body{
+    background-color: white;
+    overflow-x: hidden;
+    border-radius: 13em;
+    
+    
+}
+
+#main-div{
+    
+    background-image: linear-gradient(
+  to right,
+  #126ac7 0%,
+  #077BE5 32%,
+  #0f62bb , 
+  #077BE5 72%,
+  #126ac7 100%);
+    width: 95%;
+    height: 36em;
+    border-radius: 3em;
+    margin: 2em auto;
+    position: relative;
+
+}
+
+.side-bar{
+    position: relative;
+    height: 33em;
+    background-color:#2387e6 ;
+    width: 4em;
+    border-radius: 2em;
+    left: 1.5em;
+    top: 1.5em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.logo-quiz-1{
+    width: 5em;
+    height: 7em;
+    position: absolute;
+    top: 0.8em;
+    left: -0.5em;
+}
+
+.after-image{
+    width: 2.5em;
+    height: 2.5em;
+    position: absolute;
+    top: 6em;
+    left: 0.7em;
+}
+
+.icon-1{
+    width: 1.5em;
+    height: 1.5em;
+    position: absolute;
+    bottom: 21.8em;
+    left: 1.3em;
+}
+
+.icon-2{
+    width: 1.2em;
+    height: 1.3em;
+    position: absolute;
+    bottom: 18.5em;
+    left: 1.3em;
+}
+
+.icon-3{
+    width: 1.2em;
+    height: 1.2em;
+    position: absolute;
+    bottom: 15em;
+    left: 1.3em;
+}
+
+.section-span a{
+    width: 2.5em;
+    height: 2.5em;
+    border: 1px dashed white;
+    border-radius: 1em;
+    position: absolute;
+    bottom: 1em;
+    left: 0.7em;
+
+}
+
+.section-span span{
+    width: 1.5em;
+    height: 1.5em;
+    background-color: #46FAFF;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0.4em;
+    left: 0.45em;
+    box-shadow: 0px 1px 2px 0px #fff, 0 3px 5px 0.5px #fff;
+}
+
+
+.community-quiz{
+    position: relative;
+    height: 12em;
+    width: 27em;
+    margin-bottom: 1em;
+    background-image: linear-gradient(to bottom, #69B0F4 , #077BE5 );
+    top: -29.5em;
+    left: 12em;
+    border-radius: 2em;
+    box-shadow: 0px 4px 8px 0px rgba(255, 251, 251, 0.452), 0 12px 20px 4px rgba(255, 253, 253, 0.014);
+    /* display: none; */
+    
+}
+
+.community-quiz1{
+    position: relative;
+    height: 12em;
+    width: 27em;
+    margin-bottom: 1em;
+    background-image: linear-gradient(to bottom, #69B0F4 , #077BE5 );
+    top: -29.5em;
+    left: 12em;
+    border-radius: 2em;
+    box-shadow: 0px 4px 8px 0px rgba(255, 251, 251, 0.452), 0 12px 20px 4px rgba(255, 253, 253, 0.014);
+    display: none;
+    
+}
+
+.community-quiz2{
+    position: relative;
+    height: 12em;
+    width: 27em;
+    margin-bottom: 1em;
+    background-image: linear-gradient(to bottom, #69B0F4 , #077BE5 );
+    top: -29.5em;
+    left: 12em;
+    border-radius: 2em;
+    box-shadow: 0px 4px 8px 0px rgba(255, 251, 251, 0.452), 0 12px 20px 4px rgba(255, 253, 253, 0.014);
+    display: none;
+    
+}
+
+.imgs1{
+    position: absolute !important;
+    height: 16em !important;
+    width: 21em !important;
+    top: -3.8em !important;
+    left: 12em !important;
+    filter: saturate(1.5) !important;
+}
+
+.imgs2{
+    position: absolute !important;
+    height: 16.5em !important;
+    width: 24em !important;
+    top: -4.4em !important;
+    left: 14em !important;
+    filter: saturate(1.5) !important;
+}
+
+.first-header{
+    position: absolute;
+    top: -2em;
+    left: 1em;
+}
+
+.first-header-span1{
+    color: #46FAFF;
+}
+
+.first-header-span2{
+    color: #fff;
+}
+
+.second-header{
+    position: absolute;
+    top: 12.5em;
+    left: o.5em;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    transform: rotate(-1deg);
+}
+
+.second-header-span1{
+    font-size: 16px;
+   
+}
+
+
+.popular-base{
+    border: 1px ;
+    padding: 14px 20px;
+    width: 7.5em;
+    height: 20px;
+    position: relative;
+    border-radius: 20px;
+    top: 1.4em;
+    left: 2.4em;
+    background-color: rgba(70, 250, 255, 0.5);
+    color: white;
+}
+
+.popular-base h2{
+    width: 1em;
+    font-size: 15px;
+    position: absolute;
+    top: 0.3em;
+    left: 3.3em;
+}
+
+.popular-base img{
+    width: 1em;
+    font-size: 15px;
+    position: absolute;
+    top: 0.3em;
+    left: 2em;
+}
+
+/* .two-piece span{
+   padding: 3px;
+   border: 1px solid black;
+   border-radius: 50%;
+   
+} */
+
+.two-piece a{
+    text-decoration: none;
+}
+
+.two-piece1{
+    position: absolute;
+    left: 10.5em;
+    top: 1.4em;
+    /* padding: 3px 5px; */
+    width: 1.5em;
+    height: 1.5em;
+    
+}
+
+.two-piece2{
+    position: absolute;
+    left: 0.3em;
+    top: 0.35em;
+    /* padding: 3px 5px; */
+    width: 0.9em;
+    height: 0.9em;
+}
+
+.know{
+    position: absolute;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    width: 1.6em;
+    height: 1.6em;
+    left: 12.5em;
+    top: 1.4em;
+    background-color: rgba(70, 250, 255,0.75);
+    
+}
+
+.com-quiz img{
+    position: absolute;
+    height: 14.5em;
+    width: 18em;
+    top: -2.3em;
+    left: 16.8em;
+    filter: saturate(2);
+}
+
+.quiz-body h2{
+    position: absolute;
+    font-size: 17px;
+    width: 20em;
+    top: 3.6em;
+    left: 2.2em;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+}
+
+.quiz-body h3{
+    position: absolute;
+    font-size: 11px;
+    width: 20em;
+    top: 8em;
+    left: 3.35em;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+}
+
+.down-images img{
+    width: 2em;
+    height: 2em;
+    border-radius: 3em;
+}
+
+.down-images1{
+    position: absolute;
+    bottom: 0.5em;
+    left: 2.4em;
+}
+
+.down-images2{
+    position: absolute;
+    bottom: 0.5em;
+    left: 3em;
+}
+
+.down-images3{
+    position: absolute;
+    bottom: 0.5em;
+    left: 3.8em;
+}
+
+.reviews{
+    background-color: #e1e1e1;
+    width: 8em;
+    height: 1.6em;
+    position: relative;
+    bottom: -8em; 
+    left: 7em;
+    border-radius: 2em;
+    color: black;
+    
+
+}
+
+.reviews h2{
+    position: absolute;
+    font-size: 0.8em;
+    bottom: 0.4em;
+    left: 3.5em;
+    color: black;
+}
+
+.reviews img{
+    position: absolute;
+    bottom: 0.45em;
+    left: 1.3em;
+}
+
+
+.right-nav1{
+    position: relative;
+    height: 21em;
+    background-color:#2387e6 ;
+    width: 4em;
+    border-radius: 1.7em;
+    top: -44em;
+    right: -75em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    
+}
+
+.right-nav1 div{
+    
+   position: relative;
+   bottom: -15px;
+   left: 1px;
+    
+    
+}
+
+.right-nav1 img{
+    width: 1.8em;
+    height: 1.8em;
+    border-radius: 50%;
+    display: block;
+    margin-top: 15px;
+    margin-left: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.068), 0 6px 20px 0 rgba(0, 0, 0, 0.055);
+    filter: saturate(2);
+    
+}
+
+.make-men{
+    height: 1.3em !important;
+    width: 1.5em !important;
+    border-radius: none !important;
+    
+    
+}
+
+.right-nav1 span{
+    width: 8px;
+    height: 8px;
+    background-color: yellow;
+    border-radius: 50%;
+    border: 1px solid rgb(61, 55, 55);
+    right: 1em;
+        
+}
+
+.right-nav2{
+    position: relative;
+    height: 10em;
+    background-color:#2387e6 ;
+    width: 4em;
+    border-radius: 1.7em;
+    top: -42.5em;
+    right: -75.1em;
+    /* top: 1em; */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.right-nav2 div{
+    
+    position: relative;
+    bottom: -25px;
+    left: 1px;
+   
+     
+     
+}
+ 
+.right-nav2 img{
+    width: 1.8em;
+    height: 1.8em;
+    border-radius: 50%;
+    display: block;
+    margin-top: 15px;
+    margin-left: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.068), 0 6px 20px 0 rgba(0, 0, 0, 0.055);
+    filter: saturate(2);
+}
+
+.unique{
+    top: 5em;
+    left: 2.1em;
+    position: absolute;
+}
+
+.unique1{
+    top: 7.7em;
+    left: 2.1em;
+    position: absolute;
+}
+
+.unique2{
+    bottom: 6.65em;
+    left: 2.1em;
+    position: absolute;
+    background-color: rgb(168, 91, 91) !important;
+}
+
+.unique3{
+    bottom: 3.9em;
+    left: 2.1em;
+    position: absolute;
+    background-color: greenyellow !important;
+}
+
+.unique4{
+    bottom: 1.2em;
+    left: 2.1em;
+    position: absolute;
+    background-color: greenyellow !important;
+}
+
+
+
+.three-friends{
+    position: relative;
+    width: 20em;
+    height: 13em;
+    right: -50em;
+    top: -73.5em;
+}
+
+
+.brothers{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.123), 0 6px 20px 0 rgba(0, 0, 0, 0.267);
+    font-family: 'Inter', sans-serif;
+}
+
+.three-friends img{
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 1em;
+}
+
+.three-friends1{
+    background-color: #2387e6;
+    color: white;
+    position: relative;
+    height: 3em ;
+    border-radius: 1em;
+
+}
+
+.three-friends1 img{
+    position: absolute;
+    top: 0.3em;
+    left: 0.3em;
+    filter: saturate(2);
+}
+
+.three-friends1 h2{
+ position: absolute;
+ left: 5em;
+ font-size: 1em;
+ top: 0.5em;
+}
+
+.three-friends1 h3{
+ position: absolute;
+ top: 2.5em;
+ left: 7.2em;
+ font-size: 0.7em;
+}
+
+.three-friends-img1{
+    position: absolute !important;
+    right: 1em !important;
+    top: 1em !important;
+    width: 2em;
+    height: 2em;
+    filter: none !important;
+    
+}
+
+.three-friends-img1 img{
+    position: absolute !important;
+    right: -1em !important;
+    top: 0em !important;
+    width: 0.8em;
+    height: 0.8em;
+    filter: none !important;
+    
+}
+
+.three-friends2{
+    background-color: #2387e6;
+    color: white;
+    position: relative;
+    height: 3em ;
+    border-radius: 1em;
+    top: 0.8em;
+
+}
+
+.three-friends2 img{
+    position: absolute;
+    top: 0.3em;
+    left: 0.3em;
+    filter: saturate(2);
+}
+
+.three-friends2 h2{
+    position: absolute;
+    left: 5em;
+    font-size: 1em;
+    top: 0.5em;
+}
+
+   
+.three-friends2 a{
+    position: absolute;
+    right: 1.5em;
+    top: 1em;
+    text-decoration: none;
+}
+
+.three-friends3{
+    background-color: #2387e6;
+    color: white;
+    position: relative;
+    height: 3em ;
+    border-radius: 1em;
+    top: 1.7em;
+
+}
+
+.three-friends3 img{
+    position: absolute;
+    top: 0.3em;
+    left: 0.3em;
+    filter: saturate(2);
+}
+
+.three-friends3 h2{
+    position: absolute;
+    left: 5em;
+    font-size: 1em;
+    top: 0.5em;
+}
+
+   
+.three-friends3 a{
+    position: absolute;
+    right: 1.5em;
+    top: 1em;
+    text-decoration: none;
+}
+
+.three-friends3 h3{
+    position: absolute;
+    top: 2.5em;
+    left: 7.5em;
+    font-size: 0.7em;
+}
+
+.statistics{
+    height: 17.8em;
+    width: 15em;
+    /* background-color: #0b80ee; */
+    background-image: url('../images/Frame\ 19.png') ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    right: -53em;
+    top: -73.5em;
+    border-radius: 2em;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.514), 0 6px 10px 0 rgba(0, 0, 0, 0.342);
+
+}    
+
+.up-root{
+    font-size: 0.8em;
+    font-weight: 600;
+    color: white;
+}
+
+.red-bull img{
+    width: 10em;
+    height: 10em;
+    position: absolute;
+    top: 1.5em;
+    left: 2em;
+    filter: saturate(1.8);
+}
+
+.yellow-bull img{
+    width: 9.5em;
+    height: 9.5em;
+    position: absolute;
+    top: 2.3em;
+    left: 2.7em;
+    filter: saturate(2);
+}
+
+.blue-bull{
+    width: 5.5em;
+    height: 5.5em;
+    background-color: darkblue;
+    position: absolute;
+    border-radius: 50%;
+    top: 4em;
+    left: 4.5em;
+}
+
+.dot-bull{
+    width: 4.5em;
+    height: 4.5em;
+    background-color: transparent;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px dashed white;
+    top: 4.5em;
+    left: 5em;
+}
+
+.text-bull{
+    font-size: 0.65em;
+    color: white;
+}
+
+.text-bull p{
+    letter-spacing: -0.7px;
+    position: absolute;
+    top: 9.5em;
+    left: 8.2em;
+    font-weight: 900;
+}
+
+.text-bull h4{
+    letter-spacing: -1px;
+    position: absolute;
+    top: 7.2em;
+    left: 6em;
+    font-size: 1.5em;
+}
+
+.star-bull{
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
+    background-color: #47FAFE;
+    position: absolute;
+    bottom: 1.4em;
+    left: 2.5em;
+}
+
+.star-bull img{
+    position: absolute;
+    left: 0.5em;
+    top: 0.4em;
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.star-bull p{
+    position: absolute;
+    left: 0.3em;
+    top: 3.2em;
+    
+}
+
+.axe-bull{
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
+    background-color: #FD3BF8;
+    position: absolute;
+    bottom: 1.4em;
+    left: 6.3em;
+}
+
+.axe-bull img{
+    position: absolute;
+    left: 0.5em;
+    top: 0.5em;
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.axe-bull p{
+    position: absolute;
+    left: 0.3em;
+    top: 3.2em;
+}
+
+
+.shield-bull{
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
+    background-color: #DC238E;
+    position: absolute;
+    bottom: 1.4em;
+    left: 10em;
+
+}
+
+.shield-bull img{
+    position: absolute;
+    left: 0.5em;
+    top: 0.5em;
+    width: 1.7em;
+    height: 1.5em;
+}
+
+.shield-bull p{
+    position: absolute;
+    left: 0.3em;
+    top: 3.2em;
+}
+
+.other-games{
+    /* border: 1px solid black; */
+    height: 14.5em;
+    width: 43em;
+    position: relative;
+    background-color: transparent;
+    top: -92em;
+    left: 10em;
+    overflow: hidden;
+}
+
+.first-other-game{
+    border: 2px dashed white;
+    width: 15em;
+    height: 11.5em;
+    border-radius: 2em;
+    position: relative;
+    left: 2em;
+    top: 1.6em;
+}
+
+.other-games-div-one{
+    border-radius: 2em;
+    width: 14.5em;
+    height: 11.5em;
+    overflow: hidden;
+    position: relative;
+    transform: rotate(-5deg);
+    background-color: #5a7188;
+    top: -0.7em;
+    border: 1px solid #5a7188;
+}
+
+.other-games-stone{
+    height: 16.8em;
+    width: 12.5em;
+    position: absolute;
+    right: -3.5em;
+    top: -0.4em;
+}
+
+.other-games-cello{
+    height: 13em;
+    width: 13em;
+    position: absolute;
+    top: -0.8em;
+    left: -1.1em;
+    /* opacity: 0.3; */
+    
+}
+
+
+.other-games-div-one-lione img{
+    position: absolute;
+    left: 1em !important;
+    top: 1em !important;
+    width: 1.5em !important;
+    height: 1.5em !important;
+}
+
+.other-games-div-one-litwo img{
+    position: absolute;
+    right: 1em !important;
+    top: 0.7em !important;
+    width: 1.7em !important;
+    height: 1.7em !important;
+}
+
+.other-games-div-one h4{
+    color: white;
+    position: absolute;
+    bottom: 4em;
+    left: 1em;
+    font-family: 'Inter', sans-serif;
+}
+
+.other-games-div-one p{
+    width: 17em;
+    text-align: left;
+    font-size: 9px;
+    color: white;
+    position: absolute;
+    bottom: 2em;
+    left: 2em;
+    font-family: 'Inter', sans-serif;
+}
+
+.second-other-game{
+    border: 2px dashed white;
+    width: 15em;
+    height: 11.8em;
+    border-radius: 2em;
+    position: relative;
+    left: 18em;
+    top: -10.7em;
+}
+
+.other-games-div-two{
+    border-radius: 2em;
+    width: 14.5em;
+    height: 11.3em;
+    overflow: hidden;
+    position: relative;
+    
+    background-color: #5a7188;
+    top: 0.1em;
+    left: 0.1em;
+    border: 1px solid #5a7188;
+}
+
+.other-games-half-fan{
+    height: 16.8em;
+    width: 15em;
+    position: absolute;
+    right: -6.5em;
+    top: -2.5em;
+}
+
+.other-games-cello1{
+    height: 13em;
+    width: 20em;
+    position: absolute;
+    top: -0.8em;
+    left: 0em;
+    
+    
+}
+
+
+
+
+.other-games-div-two-lione img{
+    position: absolute;
+    left: 1em !important;
+    top: 1em !important;
+    width: 1.5em !important;
+    height: 1.5em !important;
+}
+
+.other-games-div-two-litwo img{
+    position: absolute;
+    right: 1em !important;
+    top: 1em !important;
+    width: 1.5em !important;
+    height: 1.5em !important;
+}
+
+.other-games-div-two h4{
+    color: white;
+    position: absolute;
+    bottom: 4em;
+    left: 1em;
+    font-family: 'Inter', sans-serif;
+}
+
+.other-games-div-two p{
+    width: 17em;
+    font-size: 9px;
+    color: white;
+    position: absolute;
+    bottom: 2em;
+    left: 2em;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.third-other-game{
+    border: 2px dashed white;
+    width: 15em;
+    height: 11.8em;
+    border-radius: 2em;
+    position: relative;
+    left: 34em;
+    top: -21em;
+    transform: rotate(7deg);
+}
+
+.other-games-div-three{
+    border-radius: 2em;
+    width: 14.5em;
+    height: 11.2em;
+    overflow: hidden;
+    position: relative;
+    
+    background-color: #5a7188;
+    top: 0.1em;
+    left: 0.1em;
+    border: 1px solid #5a7188;
+}
+
+.other-games-half-gold{
+    height: 16.8em;
+    width: 12.5em;
+    position: absolute;
+    right: -3.9em;
+    top: -2em;
+}
+
+.other-games-cello2{
+    height: 13em;
+    width: 13em;
+    position: absolute;
+    top: -0.8em;
+    left: -1.1em;
+    opacity: 0.6;
+    
+}
+
+
+
+.other-games-div-three-lione img{
+    position: absolute;
+    left: 1em !important;
+    top: 1em !important;
+    width: 1.5em !important;
+    height: 1.5em !important;
+}
+
+.other-games-div-three-litwo img{
+    position: absolute;
+    left: 1em !important;
+    top: 1em !important;
+    width: 1.5em !important;
+    height: 1.5em !important;
+}
+.other-games-div-three h4{
+    color: white;
+    position: absolute;
+    bottom: 4em;
+    left: 1.2em;
+    font-family: 'Inter', sans-serif;
+}
+
+.other-games-div-three p{
+    width: 17em;
+    font-size: 9px;
+    color: white;
+    position: absolute;
+    bottom: 2em;
+    left: 2em;
+    font-family: 'Inter', sans-serif;
+}
+
+.tabler-direction img{
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    top: 6em;
+    right: 1em;
+    transform: rotate(5deg);
+
+}
+
+.dashboard-stats{
+    
+    width: 17em;
+    position: relative;
+    top: -93.1em;
+    left: 12.6em;
+    
+}
+
+.dashboard-stats h4{
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+}
+
+
+
+.end-game{
+    /* background-color: #5a7188; */
+    border-radius: 1em;
+    width: 30em;
+    height: 4em;
+    bottom: 92.8em;
+    left: 12.5em;
+    position: relative;
+    background-image: linear-gradient(to right, #fff 70%, #9accff );
+    overflow: hidden;
+}
+
+.rectangle-24 img{
+    width: 15em;
+    position: absolute;
+    left: -0.1em;
+    border-radius: 1em 0.5em 0.5em 1em;
+}
+
+.close-quiz{
+    position: absolute;
+    width: 3em;
+    height: 3em;
+    border: 2px solid #aed5fc;
+    top: 0.5em;
+    left: 1em;
+    border-radius: 0.8em;
+    background-color: #9accff;
+
+}
+
+.close-quiz img{
+    width: 3em;
+    height: 2em;
+    position: absolute;
+    top: 0.5em;
+}
+
+.quiz-m{
+    width: 8.5em;
+    height: 2.8em;
+    position: absolute;
+    top: 0.8em;
+    left: 4.5em;
+}
+
+.quiz-m h4{
+    font-size: 1em;
+    color: white;
+}
+
+.quiz-m span{
+    background-color: #2b8fec;
+    width: 5em;
+    height: 1em;
+    position: absolute;
+    
+    top: 1.3em;
+    left: 0.1em;
+    border-radius: 0.3em;
+}
+
+.quiz-m p{
+    font-size: 0.6em;
+    margin-left: 0.8em;
+    margin-top: 0.2em;
+    color: white;
+    letter-spacing: 0.5px;
+}
+
+.terrible-end{
+    width: 8em;
+    height: 3em;
+    position: absolute;
+    right: 5em;
+    top: 0.5em;
+}
+
+.terrible-end h4{
+    
+    position: absolute;
+    top: 0.5em;
+    left: 0.8em;
+    font-size: 0.9em;
+    font-weight: 700;
+}
+
+.terrible-end p{
+    font-size: 0.9em;
+    position: absolute;
+    top: 1.7em;
+    left: 0.4em;
+}
+
+
+.self-icons1 img{
+    position: absolute;
+    right: 4em !important;
+    top: 1.2em !important;
+    width: 1.5em !important;
+    height: 1.5em !important;
+}
+
+.self-icons2 img{
+    position: absolute;
+    right: 2em ;
+    top: 1.2em ;
+    width: 1.5em ;
+    height: 1.5em ;
+}
+
+.self-icon-img{
+    position: absolute;
+    right: 2.25em !important;
+    top: 1.4em !important;
+    width: 1em !important;
+    height: 1em !important;
+}
+
+.search-section{
+    position: relative;
+    /* border: 1px solid black; */
+    width: 18em;
+    height: 7em;
+    left: 48em;
+    top: -126.5em;
+
+
+}
+
+.section-text1{
+    position: absolute;
+    font-size: 1em;
+    top: 0.5em;
+    left: 4em;
+
+}
+
+.section-img1{
+    position: absolute;
+    width: 13em !important;
+    height: 2em !important;
+    left: 2em;
+    
+}
+
+.section-img2{
+    position: absolute;
+    width: 1em !important;
+    height: 1em !important;
+    top: 0.5em;
+    left: 2.5em;
+}
+
+.section-img3{
+    position: absolute;
+    width: 2em !important;
+    height: 2em !important;
+    right: 0em;
+}
+
+.section-img4{
+    position: absolute;
+    width: 2em !important;
+    height: 2em !important;
+    right: -2.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
