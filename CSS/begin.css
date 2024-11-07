@@ -1,0 +1,38 @@
+@media only screen and (max-width:1080px) and (max-height: 1920px){
+
+body{
+    background-image: url('../images/Super\ quiz\ ui\ bg\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 30% 15%;
+    filter: saturate(1.5);
+    overflow: hidden;
+}
+
+.superlogoa img{
+    position: relative;
+    width: 62em;
+    height: 37em;
+    top: 56em;
+    left: 5em;
+}
+
+.open-p img{
+    width: 30em;
+}
+
+.open-p{
+    position: relative;
+    left: 20em;
+    top: 55em;
+}
+
+
+
+
+
+
+
+
+
+}

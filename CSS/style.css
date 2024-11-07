@@ -20,6 +20,10 @@ nav{
     font-family: 'Inter', sans-serif;
 }
 
+.navlogos{
+    display: none;
+}
+
 .logo{
     display: inline-flex;
     margin-left: -8em;
@@ -52,6 +56,10 @@ nav{
     background-color: #1c86e6;
     color: white;
     
+}
+
+.navlogos{
+    display: none;
 }
 
 .end-logo{
@@ -445,10 +453,10 @@ nav{
 
 .sword-key img{
     position: absolute;
-    width: 18em;
-    height: 11.7em;
+    width: 17em;
+    height: 14em;
     left: 34em;
-    top: -2.5em;
+    top: -3.9em;
     filter: saturate(1.5);
     
 }
@@ -476,6 +484,31 @@ nav{
     top: 2em;
     
 }
+
+.mid-sect-extra-h3{
+    display: none;
+}
+
+.mid-sect-extra-h31{
+    display: none;
+}
+
+.mid-sect-extra-h30{
+    display: none;
+}
+
+.mid-sect-extra-h301{
+    display: none;
+}
+
+.mid-sect-extra-h300{
+    display: none;
+}
+
+.mid-sect-extra-h3001{
+    display: none;
+}
+
 
 .mid-sect-h30{
     position: absolute;
@@ -612,6 +645,14 @@ nav{
     margin-top: 2em;
 }
 
+.dash-board-h20{
+    display: none;
+}
+
+.dash-board-h21{
+    display: none;
+}
+
 .dash-board h3{
     font-size: 15px;
     margin-bottom: -13px;
@@ -650,8 +691,25 @@ nav{
     top: 6.5em;
     transform: rotate(-10deg);
     height: 13em !important;
+
+}
+
+.dash-board3 h3{
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    margin-bottom: 0em;
+    /* margin-top: 0.5em; */
+    margin-left: 0.05em;
+}
+
+.dash-board3 h4{
+    font-family: 'Inter', sans-serif;
+    font-size: 8px;
+    font-weight: 200;
+    margin-top: -1em;
     
 }
+
 
 .dash-board img{
     height: 25px;
@@ -690,10 +748,14 @@ nav{
     margin-left: 18em;
 }
 
-.faq-container h1 {
+.faq-container-h1 {
     text-align: center;
     margin-bottom: 20px;
     color: #333;
+}
+
+.faqs{
+    display: none;
 }
 
 details {
