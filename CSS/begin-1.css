@@ -1,0 +1,127 @@
+@media only screen and (max-width:1080px) and (max-height: 1920px){
+
+    body{
+        background-image: url('../images/Super\ quiz\ ui\ blur\ version.png') ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 30% 10%;
+        filter: saturate(1.5);
+        overflow: hidden;
+    
+    }
+
+    .gobackandr img{
+        position: relative;
+        width: 8.5em;
+        top: 4em;
+        left: 5em;
+        
+    }
+
+    .create h2{
+        position: relative;
+        font-size: 4em;
+        top: 3em;
+        left: 2em;
+        font-family: "Inter", sans-serif;
+        color: white;
+        opacity: 100%;
+    }
+
+    .nickname-form{
+        position: relative;
+        top: 20em;
+        left: 10em;
+    }
+
+    .text-input{
+        position: absolute;
+        width: 18em;
+        height: 2.5em;
+        background-color: #D9D9D9;
+        border: none;
+        top: 0.7em;
+        left: 0.2em;
+        z-index: 1;
+        font-size: 35px;
+        font-weight: 600;
+        color: #521B0B;
+
+    }
+
+    .img-input{
+        position: absolute;
+        width: 45em;
+        left: -2.5em;
+    }
+
+    .nickname-form input::placeholder{
+        font-size: 30px;
+    }
+
+    .nickname-form h2{
+        position: absolute;
+        z-index: 2;
+        font-size: 3em;
+        color: white;
+        top: -2.5em;
+        left: -0.7em;
+        font-weight: 300;
+        
+    }
+
+    .nickname-form-two{
+        position: relative;
+        top: 40em;
+        left: 10em;
+    }
+
+    .text-input{
+        position: absolute;
+        width: 18em;
+        height: 2.5em;
+        background-color: #D9D9D9;
+        border: none;
+        top: 0.7em;
+        left: 0.2em;
+        z-index: 1;
+        font-size: 35px;
+        font-weight: 600;
+        color: #521B0B;
+
+    }
+
+    .img-input{
+        position: absolute;
+        width: 45em;
+        left: -2.5em;
+    }
+
+    .nickname-form-two input::placeholder{
+        font-size: 30px;
+    }
+
+    .nickname-form-two h2{
+        position: absolute;
+        z-index: 2;
+        font-size: 3em;
+        color: white;
+        top: -2.5em;
+        left: -0.7em;
+        font-weight: 300;
+    }    
+
+    .continuebtn img{
+        width: 30em;
+        position: relative;
+        top: 65em;
+        left: 15em;
+    }
+
+    #continue-link {
+        display: none; /* Hide the link initially */
+    }
+    
+
+    
+}
